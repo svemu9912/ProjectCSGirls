@@ -71,4 +71,20 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="248dp" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find place"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:id="@+id/likelyResults"
+        android:layout_width="110dp"
+        android:layout_height="72dp"
+        android:text="Likely Results"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="388dp" />
+
 </android.support.constraint.ConstraintLayout>
